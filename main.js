@@ -6,3 +6,9 @@ dropdown.addEventListener('click', function(){
     hamburger.classList.toggle("active"); 
 }
 );
+
+const exit = document.querySelector ('.close');
+
+exit.addEventListener ('click', function(){
+    hamburger.classList.toggle("active");
+});
